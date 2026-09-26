@@ -1,0 +1,6 @@
+{
+  "name": "PeddiLottery",
+  "description": "PeddiLottery Customer App and Admin Panel featuring secure ticket generation, schedule management, daily device limits, and live draw countdowns.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

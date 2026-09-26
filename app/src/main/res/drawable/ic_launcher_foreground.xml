@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Ticket base drop shadow -->
+    <path
+        android:pathData="M31,34 L77,34 C79.2,34 81,35.8 81,38 L81,49 C78.2,49 76,51.2 76,54 C76,56.8 78.2,59 81,59 L81,70 C81,72.2 79.2,74 77,74 L31,74 C28.8,74 27,72.2 27,70 L27,59 C29.8,59 32,56.8 32,54 C32,51.2 29.8,49 27,49 L27,38 C27,35.8 28.8,34 31,34 Z"
+        android:fillColor="#33000000" />
+
+    <!-- Main Golden Ticket -->
+    <path
+        android:pathData="M30,32 L76,32 C78.2,32 80,33.8 80,36 L80,47 C77.2,47 75,49.2 75,52 C75,54.8 77.2,57 80,57 L80,68 C80,70.2 78.2,72 76,72 L30,72 C27.8,72 26,70.2 26,68 L26,57 C28.8,57 31,54.8 31,52 C31,49.2 28.8,47 26,47 L26,36 C26,33.8 27.8,32 30,32 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="26"
+                android:startY="32"
+                android:endX="80"
+                android:endY="72"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFE259" />
+                <item android:offset="0.5" android:color="#FFA751" />
+                <item android:offset="1.0" android:color="#FF7E00" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Ticket inner border / dashed perforation line -->
+    <path
+        android:pathData="M48,34 L48,70"
+        android:strokeWidth="1.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeAlpha="0.8"
+        android:strokeLineCap="round" />
+
+    <!-- Center Lucky Star -->
+    <path
+        android:pathData="M64,43 L65.8,47.8 L70.7,48.2 L67,51.4 L68.1,56.2 L64,53.7 L59.9,56.2 L61,51.4 L57.3,48.2 L62.2,47.8 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Small decorative stars / sparkles -->
+    <path
+        android:pathData="M37,45 L38,47 L40,48 L38,49 L37,51 L36,49 L34,48 L36,47 Z"
+        android:fillColor="#FFFFFF" />
+    <path
+        android:pathData="M38,58 L39,60 L41,61 L39,62 L38,64 L37,62 L35,61 L37,60 Z"
+        android:fillColor="#FFF2A7" />
+
+    <!-- "P" for PeddiLottery badge on ticket -->
+    <path
+        android:pathData="M64,37 L64,39"
+        android:strokeWidth="1.5"
+        android:strokeColor="#FFFFFF" />
+</vector>
